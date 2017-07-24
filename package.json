@@ -4,8 +4,11 @@
   "description": "Boiler plate for React.js projects",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "build": "webpack -w"
+  },
+  "engines": {
+    "node": "8.2.1"
   },
   "author": "Mohammad Aziz",
   "license": "MIT",
